@@ -1,0 +1,14 @@
+
+<html>
+	<head>
+		<title>TEMP</title>
+	</head>
+	<body>
+		<form method = "POST">
+			Address: <input type = "text" name = "address" placeholder = "Leipziger Str. 3-4, 10117 Berlin Germany"><br/>
+			<input type = "submit" value = "Submit">
+		</form>
+		{% if address %} <h1> {{ address }} <h1> {% endif %}
+	</body>
+</html>
+
