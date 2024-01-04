@@ -2,6 +2,7 @@
 from flask import Flask, render_template, request
 from geopy.geocoders import Nominatim
 
+# I don't remember why I made this repo.
 
 server = Flask(__name__)
 geolocator = Nominatim(user_agent="Python3 on Linux")
